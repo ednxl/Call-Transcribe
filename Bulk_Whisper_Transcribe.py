@@ -2,7 +2,7 @@ import os
 import whisper
 
 # Folder path containing the audio files
-folder_path = "C:/Users/EricDobbins/Documents/CallAudio/"
+folder_path = "<file Path>"
 
 # Load the whisper model
 model = whisper.load_model("tiny.en")
