@@ -5,7 +5,7 @@ import whisper
 folder_path = "<file Path>"
 
 # Load the whisper model
-model = whisper.load_model("tiny.en")
+model = whisper.load_model("large.en")
 
 # Iterate through each file in the folder
 for filename in os.listdir(folder_path):
